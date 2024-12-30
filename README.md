@@ -27,3 +27,6 @@ GCP Project: Ensure you have a GCP project with billing enabled and the Compute 
 ## Usage
 *Basic Command*
 To create a VM with default settings, run:
+```
+python3 create_gcp_instance.py --project_id="your-project-id" --vm_name="your-vm-name"
+```
