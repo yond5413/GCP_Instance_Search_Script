@@ -70,7 +70,7 @@ Machine Type: n1-standard-8
 Disk Size: 100 GB
 
 Run the command:
-
+```
 python3 create_gcp_instance.py \
   --project_id="high-performance-ml" \
   --vm_name="my-lil-vm" \
@@ -78,6 +78,8 @@ python3 create_gcp_instance.py \
   --gpu_count=4 \
   --machine_type="n1-standard-8" \
   --disk_size=100
+```
+
 How It Works
 Scan Zones: The script scans GCP zones to find available GPUs of the specified type.
 
