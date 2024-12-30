@@ -25,5 +25,5 @@ Before using this script, ensure you have the following:
 GCP Project: Ensure you have a GCP project with billing enabled and the Compute Engine API activated.
 
 ## Usage
-*Basic Command
+*Basic Command*
 To create a VM with default settings, run:
